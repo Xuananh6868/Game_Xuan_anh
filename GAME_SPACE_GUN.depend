@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1743335662 source:d:\game_chicken\game_space_gun\main.cpp
+	"Game.h"
+	"menu.h"
+
+1743355280 d:\game_chicken\game_space_gun\game.h
+	"Common.h"
+	"str1.h"
+	"struct1.h"
+	"SDLHelper.h"
+	"object.h"
+	"LevelManager.h"
+	<vector>
+
+1743262213 d:\game_chicken\game_space_gun\renderer.h
+	"Common.h"
+
+1743343878 d:\game_chicken\game_space_gun\common.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<vector>
+	<algorithm>
+	<cstdlib>
+	<ctime>
+	<cmath>
+	<string>
+	"def.h"
+
+1743263482 d:\game_chicken\game_space_gun\def.h
+
+1743263616 d:\game_chicken\game_space_gun\str1.h
+	<SDL.h>
+	<SDL_image.h>
+	<vector>
+	<algorithm>
+	<cstdlib>
+	<ctime>
+
+1743263509 source:d:\game_chicken\game_space_gun\object.cpp
+	"object.h"
+
+1743263504 d:\game_chicken\game_space_gun\object.h
+	<SDL.h>
+	"struct1.h"
+
+1743313270 source:d:\game_chicken\game_space_gun\str1.cpp
+	"str1.h"
+
+1743359431 source:d:\game_chicken\game_space_gun\game.cpp
+	"Game.h"
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<algorithm>
+
+1743263705 d:\game_chicken\game_space_gun\struct1.h
+	"Common.h"
+
+1743354687 d:\game_chicken\game_space_gun\sdlhelper.h
+	"Common.h"
+	"def.h"
+
+1743355284 source:d:\game_chicken\game_space_gun\sdlhelper.cpp
+	"SDLHelper.h"
+	"struct1.h"
+	<cstdio>
+
+1743263700 source:d:\game_chicken\game_space_gun\struct1.cpp
+	"struct1.h"
+
+1743334274 source:d:\game_chicken\game_space_gun\global.cpp
+	"Common.h"
+
+1743357971 d:\game_chicken\game_space_gun\menu.h
+	"Common.h"
+	"def.h"
+
+1743359379 source:d:\game_chicken\game_space_gun\menu.cpp
+	"menu.h"
+	"SDLHelper.h"
+	<SDL.h>
+	<iostream>
+
+1743348679 d:\game_chicken\game_space_gun\levelmanager.h
+	"Common.h"
+	"def.h"
+	"SDLHelper.h"
+	<SDL_mixer.h>
+	<string>
+
