@@ -42,10 +42,11 @@ void menu::renderButton(SDL_Texture* buttonTexture, int x, int y, bool selected)
         int w, h;
         SDL_QueryTexture(buttonTexture, NULL, NULL, &w, &h);
         SDL_Rect borderRect = { x, y, w, h };
-        SDL_SetRenderDrawColor(anh.renderer, 255, 0, 0, 255); // Màu đỏ cho đường viền
+        SDL_SetRenderDrawColor(anh.renderer, 65, 105, 225, 255); // Màu đỏ cho đường viền\n
         SDL_RenderDrawRect(anh.renderer, &borderRect);
     }
 }
+
 
 void menu::key_process() {
     SDL_Event e;
