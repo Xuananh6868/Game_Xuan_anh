@@ -17,8 +17,10 @@ void initSDL() {
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0)
         logErrorAndExit("SDL_Init", SDL_GetError());
 
-    anh.window = SDL_CreateWindow(" anh", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
-                                  SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+    anh.window = SDL_CreateWindow("Chicken Invaders Clone",
+                          SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
+                          SCREEN_WIDTH, SCREEN_HEIGHT,
+                          SDL_WINDOW_FULLSCREEN_DESKTOP);
     if (anh.window == nullptr)
         logErrorAndExit("CreateWindow", SDL_GetError());
 
