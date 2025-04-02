@@ -49,7 +49,7 @@
 1743313270 source:d:\game_chicken\game_space_gun\str1.cpp
 	"str1.h"
 
-1743359431 source:d:\game_chicken\game_space_gun\game.cpp
+1743518273 source:d:\game_chicken\game_space_gun\game.cpp
 	"Game.h"
 	<cstdio>
 	<cstdlib>
@@ -63,7 +63,7 @@
 	"Common.h"
 	"def.h"
 
-1743355284 source:d:\game_chicken\game_space_gun\sdlhelper.cpp
+1743516200 source:d:\game_chicken\game_space_gun\sdlhelper.cpp
 	"SDLHelper.h"
 	"struct1.h"
 	<cstdio>
@@ -78,7 +78,7 @@
 	"Common.h"
 	"def.h"
 
-1743359379 source:d:\game_chicken\game_space_gun\menu.cpp
+1743516913 source:d:\game_chicken\game_space_gun\menu.cpp
 	"menu.h"
 	"SDLHelper.h"
 	<SDL.h>
