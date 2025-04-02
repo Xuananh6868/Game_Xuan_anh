@@ -49,7 +49,7 @@
 1743313270 source:d:\game_chicken\game_space_gun\str1.cpp
 	"str1.h"
 
-1743518273 source:d:\game_chicken\game_space_gun\game.cpp
+1743609075 source:d:\game_chicken\game_space_gun\game.cpp
 	"Game.h"
 	<cstdio>
 	<cstdlib>
