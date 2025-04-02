@@ -41,6 +41,7 @@ bool Game::init() {
 }
 
 void Game::run() {
+
     while (running) {
         while (SDL_PollEvent(&e)) {
             if (e.type == SDL_QUIT)
@@ -100,8 +101,6 @@ void Game::run() {
         bgX -= 1.7;
         if (bgX <= -SCREEN_WIDTH)
             bgX = 0;
-
-        SDL_RenderClear(anh.renderer);
 
         SDL_Rect bgRect1 = { bgX, 0, SCREEN_WIDTH, SCREEN_HEIGHT };
         SDL_Rect bgRect2 = { bgX + SCREEN_WIDTH, 0, SCREEN_WIDTH, SCREEN_HEIGHT };
@@ -377,7 +376,7 @@ void Game::run() {
         renderText(levelText, SCREEN_WIDTH-100, 5, Green);
 
         SDL_RenderPresent(anh.renderer);
-        SDL_Delay(13);
+        SDL_Delay(16);
 
         // Xóa các đối tượng đã ra ngoài màn hình
         aliens.erase(
